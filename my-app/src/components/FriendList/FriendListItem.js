@@ -17,7 +17,7 @@ FriendListItem.defaultProps = {
 
 FriendListItem.propTypes = {
     name: PropTypes.string,
-    isOnline: PropTypes.string,
+    isOnline: PropTypes.bool,
 }
 
 export default FriendListItem;
