@@ -1,0 +1,27 @@
+.transactionHistory {
+    width: 480px;
+    margin: 0 auto;
+    border: 1px solid;
+    box-shadow: 1px 3px 2px 1px rgba(0,0,0, 0.50);
+}
+
+.rowName {
+    background-color: rgb(131, 192, 216);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.name {
+    width: 160px;
+    padding: 10px;
+}
+
+.transaction {
+    text-align: center;
+    border: 1px solid grey;
+    color: grey;
+    padding: 5px;
+}
