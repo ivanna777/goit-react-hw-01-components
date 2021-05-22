@@ -19,7 +19,7 @@ const TransactionHistory = ({items}) => (
       <td className={styles.transaction}>{item.amount}</td>
       <td className={styles.transaction}>{item.currency}</td>
     </tr>
-    ))};
+    ))}
   </tbody>
 </table>
 );

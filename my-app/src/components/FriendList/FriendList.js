@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import styles from "./FriendList.module.css";
 
 const FriendList = ({friends}) => (
-    <div>
         <ul className={styles.friendList}>
             {friends.map((friend) => (
              <li key={friend.id}>
@@ -14,9 +13,8 @@ const FriendList = ({friends}) => (
                 isOnline ={friend.isOnline}
             />
             </li>
-            ))};
-        </ul>
-  </div>   
+            ))}
+        </ul>  
 );
 
 FriendList.propTypes = {
